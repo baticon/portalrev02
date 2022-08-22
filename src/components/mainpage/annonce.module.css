@@ -1,0 +1,38 @@
+.annonceContainer {
+  width: 607px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 30px;
+  color: #8a8989;
+  margin-bottom: 7px;
+}
+
+.annonceLogo {
+  width: 607px;
+  margin-bottom: 7px;
+}
+
+.annonceText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 27px;
+  height: 54px;
+  margin-bottom: 54px;
+}

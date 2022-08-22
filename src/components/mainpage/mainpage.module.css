@@ -1,0 +1,24 @@
+body {
+  /* width: 100%; */
+  /* margin-left: 82px; */
+  /* margin-right: 82px; */
+
+  background-color: #e5e5e5;
+}
+
+.container {
+  width: 1276px;
+  /* margin-left: 82px;
+  margin-right: 82px; */
+  padding-bottom: 15px;
+  margin: 23px auto;
+}
+
+.subContainer {
+  margin-top: 23px;
+  width: 607px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between;
+}

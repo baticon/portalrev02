@@ -1,0 +1,25 @@
+.newsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.orangeNews {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 137.4%;
+  margin-right: 40px;
+  color: #fe5000;
+}
+
+.blackNews {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 137.4%;
+  margin-right: 40px;
+}
