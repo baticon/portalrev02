@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import style from "./newscolumn.module.css";
 import "./newscolumn.css";
+import photo from "../media/photo.svg";
 
 const slide = () => {
   let settings = {
@@ -21,8 +22,19 @@ const slide = () => {
   return (
     <div className={style.container}>
       <Slider {...settings}>
-        <div>
-          <h3>Hello there</h3>
+        <div className={style.newsContainer}>
+          <div className={style.photoContainer}>
+            <img src={photo} className={style.photo} alt=""></img>
+          </div>
+          <div className={style.newsSubContainer}>
+            <span className={style.newsSource}>
+              Блок председателя правления
+            </span>
+            <span className={style.newsHeader}>Заголовок новостей</span>
+            <span className={style.newsLink}>
+              какая-то ссылка, переходящая на новость
+            </span>
+          </div>
         </div>
         <div>
           <h3>I am here</h3>

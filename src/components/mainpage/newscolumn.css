@@ -1,3 +1,22 @@
 .Custom .slick-dots {
-  background: red;
+  position: absolute;
+  bottom: -50px;
+}
+
+.Custom .slick-arrow {
+  cursor: not-allowed;
+  pointer-events: none;
+  border: none;
+  background: none;
+  display: none;
+  visibility: hidden;
+}
+
+.Custom .slick-dots {
+  display: flex !important;
+  flex-direction: row !important;
+  list-style: none !important;
+  margin-left: 0 !important;
+  padding-left: 1em !important;
+  text-indent: -1em !important;
 }

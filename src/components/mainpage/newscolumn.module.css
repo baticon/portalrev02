@@ -1,10 +1,63 @@
 .container {
-  width: 259px;
+  width: 300px;
   height: 192px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   border-radius: 2px;
-  padding-top: 13px;
-  padding-left: 40px;
+  padding-left: 24px;
+}
+
+.newsContainer {
+  padding-top: 15px;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: end;
+}
+
+.photoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo {
+  width: 87px;
+  margin-right: 10px;
+}
+
+.newsSubContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsSource {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #fe5000;
+  margin-bottom: 10px;
+}
+
+.newsHeader {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.newsLink {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #6b6b6b;
 }

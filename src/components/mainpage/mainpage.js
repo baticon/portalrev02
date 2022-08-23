@@ -17,6 +17,15 @@ const mainpage = () => {
           <Annonce></Annonce>
         </div>
         <div style={{ marginRight: "23px" }}>
+          <div style={{ marginBottom: "27px" }}>
+            <Newscolumn></Newscolumn>
+          </div>
+          <div style={{ marginBottom: "27px" }}>
+            <Newscolumn></Newscolumn>
+          </div>
+          <div style={{ marginBottom: "27px" }}>
+            <Newscolumn></Newscolumn>
+          </div>
           <Newscolumn></Newscolumn>
         </div>
       </div>
