@@ -12,7 +12,12 @@ const headerlinks = () => {
           placeholder="Поиск по сотруднику"
         ></input>
       </div>
-      <span className={style.language}>RU</span>
+      {/* <span className={style.language}>RU</span> */}
+      <select className={style.language}>
+        <option value="RU">RU</option>
+        <option value="ENG">ENG</option>
+        <option value="KZ">KZ</option>
+      </select>
       <div className={style.userContainer}>
         <div className={style.userLogoContainer}>
           <img src={userlogo} className={style.userlogo} alt=""></img>
