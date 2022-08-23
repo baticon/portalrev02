@@ -111,3 +111,15 @@
   color: #8f8f8f;
   padding-right: 3px;
 }
+
+.watchAllNews {
+  float: right;
+  margin-bottom: 14px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 137.4%;
+
+  color: #8a8989;
+}

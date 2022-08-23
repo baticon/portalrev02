@@ -143,6 +143,7 @@ const news = () => {
           </div>
         </div>
       </div>
+      <span className={style.watchAllNews}>посмотреть все новости</span>
     </div>
   );
 };

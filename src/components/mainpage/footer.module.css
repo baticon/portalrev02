@@ -1,0 +1,23 @@
+.footer {
+  border-top: 1px solid #fe5000;
+}
+
+.footerIcons {
+  padding-top: 21px;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.youtubeIcon {
+  width: 28px;
+  padding-right: 13px;
+}
+
+.instagramIcon {
+  width: 23px;
+  padding-right: 13px;
+}
+
+.facebookIcon {
+  width: 23px;
+}

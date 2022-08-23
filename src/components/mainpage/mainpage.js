@@ -1,6 +1,7 @@
 import Header from "../header/header";
 import Services from "./services";
 import Annonce from "./annonce";
+import Footer from "./footer";
 import style from "./mainpage.module.css";
 
 const mainpage = () => {
@@ -15,6 +16,7 @@ const mainpage = () => {
           <Annonce></Annonce>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
