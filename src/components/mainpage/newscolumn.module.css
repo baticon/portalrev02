@@ -1,0 +1,10 @@
+.container {
+  width: 259px;
+  height: 192px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  padding-top: 13px;
+  padding-left: 40px;
+}

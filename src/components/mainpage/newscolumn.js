@@ -1,6 +1,3 @@
-// import styles from "./newscolumn.module.css";
-// npm install --save react-awesome-slider
-
 //https://www.npmjs.com/package/react-slick
 //npm install react-slick --save
 //npm install slick-carousel
@@ -9,37 +6,33 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import style from "./newscolumn.module.css";
+import "./newscolumn.css";
 
-const slider = () => {
+const slide = () => {
   let settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    className: "Custom",
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
-    </Slider>
+    <div className={style.container}>
+      <Slider {...settings}>
+        <div>
+          <h3>Hello there</h3>
+        </div>
+        <div>
+          <h3>I am here</h3>
+        </div>
+        <div>
+          <h3>How are you doing?</h3>
+        </div>
+      </Slider>
+    </div>
   );
 };
 
-export default slider;
+export default slide;
