@@ -2,6 +2,7 @@ import Header from "../header/header";
 import Services from "./services";
 import Annonce from "./annonce";
 import Footer from "./footer";
+import Newscolumn from "./newscolumn";
 import style from "./mainpage.module.css";
 
 const mainpage = () => {
@@ -14,6 +15,9 @@ const mainpage = () => {
         </div>
         <div style={{ marginRight: "23px" }}>
           <Annonce></Annonce>
+        </div>
+        <div style={{ marginRight: "23px" }}>
+          <Newscolumn></Newscolumn>
         </div>
       </div>
       <Footer></Footer>
