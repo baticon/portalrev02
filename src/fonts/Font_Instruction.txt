@@ -1,0 +1,16 @@
+To get fonts offline do the following:
+1) Download font from google fonts
+https://fonts.google.com/?query=montserrat
+2) unzip the downloaded file and include it in your project (i.e. src/fonts/*unzip here*)
+3) on the same level as index.js create index.css, in index.css paste the following:
+""
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+      url("fonts/Montserrat/static/Montserrat-Light.woff") format("truetype");
+  font-weight: bold;
+}
+""
+Note: url indicates path to the font you want to use
+
+Done

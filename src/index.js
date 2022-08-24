@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Mainpage from "./components/mainpage/mainpage";
+import "./index.css";
+// import "./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.woff";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
